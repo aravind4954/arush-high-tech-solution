@@ -1,0 +1,1 @@
+file://%20add%20javascript%20functionality%20as%20needed%20(e.g.,%20form%20validation,%20interactive%20elements)document.queryselector('form').addeventlistener('submit',%20function%20(e)%20{%20%20%20%20e.preventdefault();%20%20%20%20alert('message%20sent!%20we%20will%20get%20back%20to%20you%20soon.');});/
