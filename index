@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arush High Tech Solutions - Innovative Solutions for Modern Technology Challenges">
+    <title>Arush High Tech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Arush High Tech Solutions</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Innovative Solutions for Modern Technology Challenges</h2>
+        <p>Empowering your business with technology-driven solutions.</p>
+        <a href="#services" class="cta-btn">Explore Services</a>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Mobile Software Development</h3>
+            <p>We build high-quality mobile apps tailored to your needs.</p>
+        </div>
+        <div class="service-item">
+            <h3>Cybersecurity Solutions</h3>
+            <p>Advanced security systems to protect your digital assets.</p>
+        </div>
+        <div class="service-item">
+            <h3>IT Consulting</h3>
+            <p>Strategic IT solutions to maximize your business potential.</p>
+        </div>
+        <div class="service-item">
+            <h3>Cloud Solutions</h3>
+            <p>Seamless cloud integration and management for your business.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Arush High Tech Solutions is a leading provider of tech solutions for businesses of all sizes. Our expert team is committed to delivering cutting-edge solutions to address modern technology challenges.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Arush High Tech Solutions. All rights reserved.</p>
+        <p>Follow us on <a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
